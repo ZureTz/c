@@ -22,6 +22,16 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,linux,macos
 
 ### C ###
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+
 # Prerequisites
 *.d
 
