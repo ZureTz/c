@@ -1,0 +1,12 @@
+If:
+  PathMatch: 
+    - .*\.c
+    - .*\.cc
+    - .*\.h
+
+CompileFlags:
+  Add: [
+    -std=c++14,
+    # Specify yours here:
+    -I=/usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/
+  ]

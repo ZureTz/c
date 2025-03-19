@@ -85,8 +85,15 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Code runner
-tempCodeRunnerFile.c
+# Code runner temporary file
+tempCodeRunnerFile.*
+
+# Clangd config (template only)
+.clangd
+
+# in and out
+*.in
+*.out
 
 ### C++ ###
 # Prerequisites
