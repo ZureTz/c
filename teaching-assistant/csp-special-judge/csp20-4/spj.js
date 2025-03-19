@@ -21,7 +21,7 @@ try {
     const diff = Math.abs(
       parseFloat(stdoutArray[i]) - parseFloat(useroutArray[i])
     )
-    
+
     if (diff > eps) {
       process.exit(6)
     }
