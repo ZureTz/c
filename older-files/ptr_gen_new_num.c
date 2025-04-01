@@ -48,7 +48,6 @@ void Fun(int *n)
             j *= 10;
         }
     }
-    free(digit);
 }
 
 int main(int argc, char const *argv[])
